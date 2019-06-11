@@ -1,0 +1,23 @@
+body {
+    background-color : rgb(95, 95, 95);
+}
+
+.header {
+    margin-top : 10px;
+    text-align : center;
+    color: rgb(255, 254, 194);
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ex{
+    text-align : center;
+    font-family: 'Nanum Myeongjo', serif;
+    color: rgb(185, 185, 153);
+}
+
+.back {
+    font-family: 'Nanum Myeongjo', serif;
+    text-align : center;
+}

@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700,800&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body> 
+<div class="header">
+    <img src="/static/img/friend.png" width=800px height=200px alt="rabbit">
+    <p> TEXT COUNTER </p>
+</div>    
+
+<div class="outlink">
+     <a href="{%url 'about'%}">HOW TO USE</a>
+</div>
+<br>
+<br>
+<div class="body">
+    <form action="{%url 'result'%}"></form>
+    <textarea cols="100" rows="20" name="fulltext"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="count it!">
+    </form> 
+</div>
+<br>
+<br>
+
+</body>
+</html>

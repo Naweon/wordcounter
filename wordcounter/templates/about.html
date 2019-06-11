@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style2.css'%}">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700,800&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="header">
+    <img src="/static/img/friend.png" width=800px height=200px alt="rabbit">
+    <p>How to use!</p>
+</div>
+
+<div class="ex">
+    <p> 안녕하세요, 당신이 쓴 글의 단어 갯수를 세어주는 Wordcounter입니다. </p>
+</div>
+
+<div class="back">
+     <a href="{%url 'index'%}">Home으로 돌아가기</a>
+</div>
+    
+</body>
+</html>
